@@ -1,0 +1,22 @@
+# Reference checkout, not part of this repository
+/Coopanion/
+
+# Local collaboration metadata
+/AGENTS.md
+/.agents/
+/.aws/
+/.codex/
+
+# Local uv state and Python bytecode
+/.uv-cache/
+/.uv-python/
+__pycache__/
+*.py[cod]
+
+# Locally generated candidate banks and audio
+/build/
+/animalese.wav
+*.wav
+
+# Editor and OS files
+.DS_Store
