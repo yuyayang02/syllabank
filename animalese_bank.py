@@ -4,7 +4,12 @@
 # requires-python = ">=3.11"
 # dependencies = []
 # ///
-"""Mandarin Animalese from a local syllable bank."""
+"""Mandarin Animalese from a local syllable bank.
+
+The speech-unit, phrasing, scheduling, and pitch-curve design is adapted from
+Coopanion's src/speech and web/speech pipeline (AGPL-3.0-or-later):
+https://github.com/Pal-AI-Lab/Coopanion
+"""
 
 from __future__ import annotations
 
@@ -23,8 +28,6 @@ from typing import BinaryIO, Sequence
 
 ROOT = Path(__file__).resolve().parent
 ASSETS = ROOT / "assets" / "speech"
-ZH_DATA = ASSETS / "characters.json"
-BANK_JSON = ASSETS / "bank.json"
 BANK_OGG = ASSETS / "zh.ogg"
 
 DEFAULT_PITCH = 365.0

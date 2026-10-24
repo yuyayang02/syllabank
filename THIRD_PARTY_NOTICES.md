@@ -7,7 +7,8 @@ The code in this repository is licensed under GNU AGPL version 3 or later
 
 ## Reference implementation
 
-The Python implementation is a reimplementation of the speech-bank logic in:
+The Python implementation is a reimplementation of the speech-bank logic in
+Coopanion's `src/speech`, `web/speech`, and `scripts/speech-bank/build.py`:
 
 - Project: Coopanion
 - Repository: https://github.com/Pal-AI-Lab/Coopanion
@@ -17,6 +18,8 @@ The Python implementation is a reimplementation of the speech-bank logic in:
 
 This repository is not affiliated with or endorsed by Coopanion, Microsoft,
 or the owners of any voice model.
+
+The Coopanion reference checkout is not distributed in this repository.
 
 Syllabank is an unofficial personal-use project. It does not claim ownership
 of Animal Crossing, Animalese, Coopanion, Microsoft Edge voices, or any
@@ -81,11 +84,13 @@ particular ffmpeg build.
 `build/xiaoxiao/` and `build/yunxi/` were generated during local testing with
 Microsoft Edge TTS. `build/`, cached source audio, generated candidate OGGs,
 and generated WAV files are intentionally excluded by `.gitignore` so they are
-not published accidentally.
+not published accidentally. These local directories are not part of a clone of
+this repository.
 
 ## Rights-holder requests
 
 If a rights holder believes that any material in this repository infringes
-their rights, please open an issue in this GitHub repository and identify the
-relevant file and the basis of the request. After review, the maintainer will
-remove or replace the identified material and stop further distribution.
+their rights, please open an issue at
+https://github.com/yuyayang02/syllabank/issues and identify the relevant file
+and the basis of the request. After review, the maintainer will remove or
+replace the identified material and stop further distribution.

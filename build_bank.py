@@ -10,7 +10,11 @@
 #   "scipy>=1.11",
 # ]
 # ///
-"""Build a candidate syllable bank with an Edge neural voice."""
+"""Build a candidate syllable bank with an Edge neural voice.
+
+The audio processing follows Coopanion's scripts/speech-bank/build.py
+(AGPL-3.0-or-later): https://github.com/Pal-AI-Lab/Coopanion
+"""
 
 from __future__ import annotations
 
